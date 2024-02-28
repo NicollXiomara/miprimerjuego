@@ -1,5 +1,3 @@
-
-
 let nclicks = 0;
 const imagen = document.querySelector(".imagen");
 const intruso = document.querySelector("#intruso");
@@ -28,7 +26,7 @@ imagen.addEventListener("click", function () {
     if (nclicks == 1) {
        clicks.style.color = "green"
         } else if (nclicks <11) {
-            clicks,style.color = "yellow"
+            clicks.style.color = "yellow"
     }  else{
         clicks.style.color = "red"
     }
